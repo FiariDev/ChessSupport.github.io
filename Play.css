@@ -1,0 +1,24 @@
+.BG {
+    background-color: aliceblue;
+}
+@media (prefers-color-scheme: Dark) {
+    .BG {
+        background-color: #312e2b;
+    }
+}
+body {
+    z-index: 0;
+    margin: 0px;
+}
+#Cover {
+    z-index: 100;
+    height: 100%;
+    width: 100%;
+    background-color: #312e2b;
+    top: -10px;
+    left: 0px;
+    transition-delay: 0.5s;
+    transition: ease 0.5s;
+    position: fixed;
+}
+html, body {margin:0;padding:0;height:100%;width: 100%;overflow: hidden;}

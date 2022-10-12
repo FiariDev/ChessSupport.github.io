@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ChessSupport.com</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div id="Cover" onmouseover="Cover()"></div>
+    <div><img src="standardboard.png" id="DemoBoard"></div>
+    <div><img src="PlayIcon.png" id="PlayIcon"></div>
+    <div><img src="PuzzleIcon.png" id="PuzzleIcon"></div>
+    <div id="ControlCenter"></div>
+    <div id="Refresh"></div>
+    <div id="PlayBTN" onmousedown="play()" onmouseover="playhover()" onmouseout="playhover2()"></div>
+    <div id="PlayDimm"></div>
+    <div id="PuzzleDimm"></div>
+    <div id="PuzzleBTN" onmousedown="puzzle()" onmouseover="puzzlehover()" onmouseout="puzzlehover2()"></div>
+    <div id="ReClick" onmouseover="refreshhover()" onmouseleave="refreshhover2()"
+    onmousedown="ctrlr()"></div>
+    <div id="playtp" onmousedown="play()"></div>
+    <link rel="Stylesheet" href="Index.css">
+    <script src="index.js"></script>
+    <link rel="icon" type="shortcut icon" href="ChessSupport.png"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+</head>
+<body class="BG">
+    <h1 id="CCLogo">
+        ChessSupport.com
+    </h1>
+    <h1 id="CCPlay">
+         Play
+    </h1>
+    <h1 id="CCPuzzle">
+        Puzzles
+    </h1>
+</body>
+</html>

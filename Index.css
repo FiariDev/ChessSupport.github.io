@@ -1,0 +1,158 @@
+.BG {
+    background-color: aliceblue;
+}
+@media (prefers-color-scheme: dark) {
+    .BG {
+        background-color: #312e2b;
+    }
+}
+body {
+    z-index: 0;
+    margin: 0px;
+}
+#Cover {
+    z-index: 100;
+    height: 100%;
+    width: 100%;
+    background-color: #312e2b;
+    top: -10px;
+    left: 0px;
+    transition-delay: 0.5s;
+    transition: ease 0.5s;
+    position: fixed;
+}
+html, body {margin:0;padding:0;height:100%;width: 100%;overflow: hidden;}
+#CCLogo {
+    font-family: 'Roboto Mono';
+    font-size: 1.5vw;
+    color: aliceblue;
+    margin-top: 0.85vw;
+    margin-left: 1.1vw;
+    z-index: 5;
+    position: relative;
+}
+#DemoBoard {
+    width: 40vw;
+    height: 40vw;
+    z-index: 5;
+    position: relative;
+    margin-left: 22.25%;
+    position: absolute;
+    border-radius: 5px;
+    margin-top: 2%;
+}
+#ControlCenter {
+    width: 17.25%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    background-color: #252321;
+}
+#Refresh {
+    background-color: #252321;
+    position: absolute;
+    margin: 0px;
+    margin-left: 0px;
+    height: 4vw;
+    width: 17.25vw;
+    z-index: 3;
+    transition: ease 0.5s;
+}
+#ReClick {
+    position: absolute;
+    margin: 0px;
+    margin-left: 0px;
+    height: 4vw;
+    width: 17.25vw;
+    z-index: 11; 
+    background-color: aqua;
+    opacity: 0;
+}
+#playtp {
+    width: 40vw;
+    height: 40vw;
+    z-index: 6;
+    position: relative;
+    margin-left: 22.25%;
+    position: absolute;
+    border-radius: 5px;
+    margin-top: 2%;
+    background-color: aqua;
+    opacity: 0;
+}
+#PlayBTN {
+    position: absolute;
+    margin-top: 4vw;
+    margin-left: 0px;
+    height: 4vw;
+    width: 17.25vw;
+    z-index: 11; 
+    background-color: aqua;
+    opacity: 0;
+}
+#PlayDimm {
+    background-color: #252321;
+    position: absolute;
+    margin-top: 4vw;
+    margin-left: 0px;
+    height: 4vw;
+    width: 17.25vw;
+    z-index: 3;
+    transition: ease 0.5s;
+}
+#CCPlay {
+    font-family: 'Roboto Mono';
+    font-size: 1.5vw;
+    color: aliceblue;
+    margin-top: 2.15vw;
+    margin-left: 6.5vw;
+    z-index: 5;
+    position: relative;
+}
+#PlayIcon {
+    filter: invert(100%);
+    position: absolute;
+    margin-top: 4.725vw;
+    margin-left: 1.75vw;
+    z-index: 5;
+    width: 2.5vw;
+    height: 2.5vw;
+}
+#PuzzleIcon {
+    filter: invert(100%);
+    position: absolute;
+    margin-top: 8.725vw;
+    margin-left: 1.75vw;
+    z-index: 5;
+    width: 2.5vw;
+    height: 2.5vw;
+} 
+#PuzzleDimm {
+    background-color: #252321;
+    position: absolute;
+    margin-top: 8vw;
+    margin-left: 0px;
+    height: 4vw;
+    width: 17.25vw;
+    z-index: 3;
+    transition: ease 0.5s;
+}
+#PuzzleBTN {
+    position: absolute;
+    margin-top: 8vw;
+    margin-left: 0px;
+    height: 4vw;
+    width: 17.25vw;
+    z-index: 11; 
+    background-color: aqua;
+    opacity: 0;
+}
+#CCPuzzle {
+    font-family: 'Roboto Mono';
+    font-size: 1.5vw;
+    color: aliceblue;
+    margin-top: 2vw;
+    margin-left: 6.5vw;
+    z-index: 5;
+    position: relative; 
+}
