@@ -25,11 +25,11 @@ function puzzlehover2() {
     document.getElementById("PuzzleDimm").style.backgroundColor = '#252321'
 }
 function ctrlr() {
-    window.location.href = "index.html"
+    window.location.href = "Fiaridev.github.io"
 }
 function play() {
-    window.location.href = "Play.html"
+    window.location.href = "Play"
 }
 function puzzle() {
-    window.location.href = "Puzzle.html"
+    window.location.href = "Puzzle"
 }
