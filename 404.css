@@ -1,0 +1,13 @@
+.BG {
+    background-color: aliceblue;
+}
+@media (prefers-color-scheme: Dark) {
+    .BG {
+        background-color: #312e2b;
+    }
+}
+body {
+    z-index: 0;
+    margin: 0px;
+}
+html, body {margin:0;padding:0;height:100%;width: 100%;overflow: hidden;}
